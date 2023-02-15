@@ -1,0 +1,53 @@
+---
+slug: ita_template
+name: IT-A Template
+description: >-
+  This is a template for own HomeAssistant add-ons.
+version: "0.1.1"
+url: "https://github.com/IT-Aicher/hassio-addons/"
+
+codenotary: codenotary@frenck.dev
+init: false
+arch:     # bislang nur auf Raspis getestet!
+  #  - armhf
+  #  - armv7
+  - aarch64     #Raspi
+  #  - amd64
+  #  - i386
+
+#host_network: true
+ports:
+  9876/tcp: 1234
+ports_description:
+  9876/tcp: Web interface
+ingress: true
+ingress_port: 9876
+panel_icon: mdi:puzzle
+panel_title: Vorlagen-Menü
+
+
+options:
+  Radio_Button: Option2
+  Schalter: true
+  Text: "beliebiger Wert"
+  textfeld:
+    - Level: 123
+      Firma: "IT-Aicher"
+      Entwickler: "robert@it-aicher.de"
+      Jahr: 2023
+  Zahl: 90
+
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  Radio_Button: list(Option1|Option2|Optinn3|Option4|Option5)   #max 5 for radio
+  Dropdown*: list(ABC|DEF|GHI|JKL|MNO|PQR|STU|VWX|YZ)
+  Schalter: bool
+  Text: str
+  textfeld:
+    - Level: int
+      Firma: str?
+      Entwickler: str
+      Jahr: match(^20[0-9][0-9]$)?
+  Zahl: int
+
+

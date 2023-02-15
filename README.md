@@ -1,8 +1,24 @@
 # IT-Aicher Hass.IO Add-Ons
 
 ## About
-
+This is our first work on Github - please be gracious :)
 
 ## Installation
-
 [![Add our Repo to your HA-Instance.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FIT-Aicher%2Fhassio-addons)
+
+Use the following URL to add this repository to your HA-Instance:
+ ```
+ https://github.com/IT-Aicher/hassio-addons
+ ```
+
+
+## Add-ons provided by this repository
+
+### &#10003; [Multiroom Audio][addon-multiroom_audio]
+
+
+
+
+
+### &#10003; [_TEMPLATE][addon_Template]
+[addon_Template]: https://github.com/IT-Aicher/hassio-addons/addon_Template
