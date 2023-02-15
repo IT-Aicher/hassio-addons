@@ -20,5 +20,10 @@ Use the following URL to add this repository to your HA-Instance:
 
 
 
+
 ### &#10003; [_TEMPLATE][addon_Template]
-[addon_Template]: https://github.com/IT-Aicher/hassio-addons/addon_Template
+[addon_Template]: https://github.com/IT-Aicher/hassio-addons/tree/main/addon_Template
+
+This add-on has no functions!
+It only serves as a template for further add-ons and for an overview of various possible settings.
+
