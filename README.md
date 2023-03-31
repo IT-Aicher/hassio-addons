@@ -1,5 +1,8 @@
 # IT-Aicher Hass.IO Add-Ons
 
+In this repo you will find some useful addons for your HomeAssistant / Hass.IO.
+Use at your own risk ;)
+
 ## About
 This is our first work on Github - please be gracious :)
 
@@ -11,11 +14,14 @@ Use the following URL to add this repository to your HA-Instance:
  https://github.com/IT-Aicher/hassio-addons
  ```
 
+ 
+  
 
 ## Add-ons provided by this repository
 
 ### &#10003; [Multiroom Audio][addon-multiroom_audio]
 
+[comming soon]
 
 
 
